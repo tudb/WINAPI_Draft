@@ -1,0 +1,19 @@
+﻿Build started 12/28/2014 2:44:30 PM.
+     1>Project "F:\Hoc Tap\Bkav\Stu\Code Visual\Win32\TestHelloWorld\TestHelloWorld.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Dialog.cpp Source1.cpp
+         Source1.cpp
+     1>f:\hoc tap\bkav\stu\code visual\win32\testhelloworld\source1.cpp(15): error C2440: 'initializing' : cannot convert from 'const wchar_t [8]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\hoc tap\bkav\stu\code visual\win32\testhelloworld\source1.cpp(16): error C2440: 'initializing' : cannot convert from 'const wchar_t [23]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>f:\hoc tap\bkav\stu\code visual\win32\testhelloworld\source1.cpp(25): error C2065: 'IDI_RESFUND2' : undeclared identifier
+     1>f:\hoc tap\bkav\stu\code visual\win32\testhelloworld\source1.cpp(32): error C2065: 'IDI_RESFUND2' : undeclared identifier
+         Dialog.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+         Generating Code...
+     1>Done Building Project "F:\Hoc Tap\Bkav\Stu\Code Visual\Win32\TestHelloWorld\TestHelloWorld.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.15
